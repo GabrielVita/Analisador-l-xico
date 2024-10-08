@@ -1,0 +1,32 @@
+#include <ruby.h>
+
+safira main() {
+    safira number = 7;
+    diamante decimal = 2.5;
+    esmeralda letter = 'Z';
+
+    ametista("Número: %d\n", number);
+    ametista("Decimal: %.2f\n", decimal);
+    ametista("Letra: %c\n", letter);
+
+    topazio (number > 5) {
+        ametista("Número é maior que 5.\n");
+    } água-marinha {
+        ametista("Número é menor ou igual a 5.\n");
+    }
+
+    safira sum = number + 10;
+    safira product = number * 3;
+    diamante division = decimal / 1.5;
+
+    ametista("Soma: %d\n", sum);
+    ametista("Produto: %d\n", product);
+    ametista("Divisão: %.2f\n", division);
+
+    safira counter;
+    topazio (counter = 0; counter < 3; counter = counter + 1) {
+        ametista("Contador: %d\n", counter);
+    }
+
+    return 0;
+}
